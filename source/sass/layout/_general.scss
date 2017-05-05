@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  height: 50px;
+  padding: 0 25px;
+
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 50px;
+
+  background-color: #d12f22;
+  border-bottom: #ac160a 4px solid;
+}
+
+.button:hover {
+  background-color: #e64437; // for some tones lighter
+}
+
+.button:active {
+  background-color: #b81609; //for some tones darker
+}

@@ -1,0 +1,109 @@
+header {
+  background-image: url('../images/backgrounds/bg-header.png');
+  background-repeat: repeat-x;
+  background-position: top center;
+  min-height: 644px;
+
+  position: relative;
+
+  font-family: 'BebasRegular';
+
+  a, a:hover {
+    color: #fff;
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 65px;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    text-shadow: rgba(0, 0, 0, .55) 0 2px;
+  }
+
+  .top-line {
+    min-height: 97px;
+    width: 100%;
+    padding: 22px 0;
+
+    background-color: rgba(0, 0, 0, 0.60);
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+
+    .top-address {
+      padding-left: 50px;
+      background-image: url('../images/icons/marker-address.png');
+      background-repeat: no-repeat;
+      background-position: left top;
+
+      line-height: 26px;
+
+      strong {
+        display: block;
+        color: #d12f22;
+        text-transform: uppercase;
+        font-size: 32px;
+      }
+
+      a {
+        font-size: 21px;
+        border-bottom: #fff dashed 1px;
+      }
+
+      a:hover {
+        border-bottom: transparent dashed 1px;
+        transition: all .25s;
+      }
+    } //end of .top-address
+
+    .ta-right {
+      background-image: none;
+      padding-left: 0;
+      text-align: right;
+
+      span {
+        color: white;
+      }
+    } //end of .ta-right
+
+    .logo-wrapper {
+      position: relative;
+      width: 240px;
+      margin: auto;
+
+      .logo {
+        position: absolute;
+        margin-top: -18px;
+        border-bottom: none;
+      }
+
+      .logo:hover {
+        border-bottom: none;
+      }
+    } //end of .logo-wrapper
+
+  } //end of .top-line
+
+  .button {
+    margin-right: 20px;
+  }
+
+  .two-rows-button {
+    line-height: 18px;
+    padding-top: 7px;
+    padding-left: 63px; // it's a place for icon
+
+    text-align: left;
+
+    background-image: url('../images/icons/icon-camera.png');
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+  }
+
+  .buttons-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 32px;
+  }
+}
