@@ -14,8 +14,14 @@
 
 .button:hover {
   background-color: #e64437; // for some tones lighter
+  text-decoration: none;
 }
 
 .button:active {
-  background-color: #b81609; //for some tones darker
+   background-color: #b81609; //for some tones darker
+   text-decoration: none;
+ }
+
+.button:visited {
+  text-decoration: none;
 }
